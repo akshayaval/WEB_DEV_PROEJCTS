@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bookmark Manager</title>
+
+    <!-- Connect our CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+        <h1>My Bookmarks</h1>
+        <p>Save your favourite websites in one place.</p>
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- Form used to add a bookmark -->
+        <section class="bookmark-form">
+
+            <h2>Add a Bookmark</h2>
+
+            <!-- Website name input -->
+            <input
+                type="text"
+                id="siteName"
+                placeholder="Website name"
+            >
+
+            <!-- Website URL input -->
+            <input
+                type="text"
+                id="siteURL"
+                placeholder="https://example.com"
+            >
+
+            <!-- Button to add bookmark -->
+            <button id="addButton">
+                Add Bookmark
+            </button>
+
+        </section>
+
+
+        <!-- ================= BOOKMARK LIST ================= -->
+
+        <section class="bookmark-section">
+
+            <h2>Saved Bookmarks</h2>
+
+            <!--
+                JavaScript will add bookmark cards
+                inside this container.
+            -->
+            <div id="bookmarkList">
+
+                <!--
+                    Example bookmark:
+
+                    <div class="bookmark-card">
+                        <a href="#">Google</a>
+                        <button>Delete</button>
+                    </div>
+                -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Connect our JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

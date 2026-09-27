@@ -1,0 +1,193 @@
+/* =========================
+   BASIC PAGE STYLING
+   ========================= */
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+
+    /* Remove default browser spacing */
+    margin: 0;
+
+    background-color: #dec790;
+    color: #af5a5a;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: #c3955b;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+main {
+    width: 90%;
+    max-width: 700px;
+
+    margin: 30px auto;
+}
+
+
+/* =========================
+   ADD BOOKMARK FORM
+   ========================= */
+
+.bookmark-form {
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+}
+
+.bookmark-form h2 {
+    margin-top: 0;
+}
+
+
+/* =========================
+   INPUTS
+   ========================= */
+
+input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+
+/* =========================
+   ADD BUTTON
+   ========================= */
+
+#addButton {
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #222;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* Change button appearance when mouse
+   is placed over it */
+
+#addButton:hover {
+    background-color: #77de62;
+}
+
+
+/* =========================
+   BOOKMARK SECTION
+   ========================= */
+
+.bookmark-section {
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   INDIVIDUAL BOOKMARK CARD
+   ========================= */
+
+.bookmark-card {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background-color: #f5f5f5;
+
+    border-radius: 6px;
+}
+
+
+/* Website link */
+
+.bookmark-card a {
+    color: #222;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* Underline when hovering */
+
+.bookmark-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   DELETE BUTTON
+   ========================= */
+
+.delete-button {
+    background-color: #d9534f;
+
+    color: white;
+
+    border: none;
+
+    padding: 8px 12px;
+
+    border-radius: 19px;
+
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #650a06;
+}
